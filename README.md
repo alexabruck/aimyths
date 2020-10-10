@@ -1,10 +1,16 @@
-Deployment status: [![Netlify Status](https://api.netlify.com/api/v1/badges/11d51f77-504c-43a4-9e70-e376a7bfa451/deploy-status)](https://app.netlify.com/sites/aimyths/deploys)
+<img src="./frontpage-jellyfish.jpg" alt="Screenshot AIMyths"/>
 
-# AI Myths
+# AI Myths - aimyths.org
 
-[aimyths.org](aimyths.org)
+URL: [aimyths.org](aimyths.org)
 
-Website initiated by [Daniel Leufer](https://daniel-leufer.com/) as part of a [Mozilla Fellowship](https://www.mozillapulse.org/profile/3147) in collaboration with digital rights organisation [Access Now](https://www.accessnow.org/).
+Website initiated by [Daniel Leufer](https://daniel-leufer.com/) as part of a [Mozilla Fellowship](https://www.mozillapulse.org/profile/3147) in collaboration with the digital rights organisation [Access Now](https://www.accessnow.org/).
+
+Development: Alexa Steinbrück
+
+Design: Zuzana Liptakova
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/11d51f77-504c-43a4-9e70-e376a7bfa451/deploy-status)](https://app.netlify.com/sites/aimyths/deploys)
 
 ## About AI Myths
 
