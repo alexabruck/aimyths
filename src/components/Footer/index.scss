@@ -1,0 +1,30 @@
+@import "../../css/colors.scss";
+
+.footer {
+  font-size: 16px;
+  line-height: 19px;
+  color: #a1a1a1;
+  //background-color: $dark-violet;
+  padding-bottom: 51px;
+}
+
+.footer__inner {
+  flex: 1;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1260px;
+  padding: 15px;
+  text-align: right;
+}
+
+.footer__inner a {
+  background-image: none !important;
+}
+
+@media all and (min-width: 770px) {
+  .footer {
+    font-size: 18px;
+    line-height: 22px;
+    padding-bottom: 15px;
+  }
+}

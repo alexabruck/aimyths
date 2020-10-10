@@ -1,0 +1,22 @@
+@import "../../css/colors.scss";
+
+.link-button {
+  display: block;
+  width: 135px;
+  height: 29.5px;
+  margin-top: 11.25px;
+
+  border: none;
+  border: 2px solid white;
+  border-radius: 18px;
+
+  font-size: 16px;
+  font-style: italic;
+  line-height: 23.5px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.link-button:hover {
+  background-color: $strong-violet;
+}

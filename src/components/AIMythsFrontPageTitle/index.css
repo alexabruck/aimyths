@@ -1,0 +1,26 @@
+.aimyths-fp-title {
+  display: block;
+  font-family: "Zilla Slab", Palatino, serif;
+  font-size: 81px;
+  margin: 0 16px;
+  font-weight: 300;
+  //color: #feb9b2;
+  //border: 2.4px solid #e60c0c;
+  //filter: blur(19.5716px);
+  text-shadow: -0.2rem -0.2rem 1rem #fff, 0.2rem 0.2rem 1rem #fff,
+    0 0 2rem #feb9b2, 0 0 4rem #feb9b2, 0 0 6rem #feb9b2, 0 0 8rem #feb9b2,
+    0 0 10rem #feb9b2;
+}
+
+@media all and (max-width: 1200px) {
+  .aimyths-fp-title {
+    font-size: 50px;
+  }
+}
+
+@media all and (max-width: 770px) {
+  .aimyths-fp-title {
+    font-size: 65px;
+    text-align: center;
+  }
+}

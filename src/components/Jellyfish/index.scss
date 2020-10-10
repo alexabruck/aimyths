@@ -1,0 +1,388 @@
+@import "../../css/colors.scss";
+
+.jellyfish {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.jellyfish__title {
+  display: block;
+}
+
+.jellyfish__list-item {
+  opacity: 0;
+  transition: opacity 0.2s;
+  background-color: #fff9ee;
+  color: #090629;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.jellyfish__list-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.jellyfish__list-item__inner {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 40px 0 30px;
+}
+
+.jellyfish__list-item__link {
+  color: inherit;
+  text-decoration: none;
+  border: none;
+  height: 100%;
+}
+
+.jellyfish__list-item__page-link-arrow {
+  display: none;
+}
+
+.jellyfish__topics-list__label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.jellyfish__topics-list__label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 21px;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  border: 4px solid #090629;
+}
+
+.jellyfish__topics-list__label--colorscheme-representing:before {
+  background-color: $theme-representing;
+}
+
+.jellyfish__topics-list__label--colorscheme-defining:before {
+  background-color: $theme-defining;
+}
+
+.jellyfish__topics-list__label--colorscheme-governing:before {
+  background-color: $theme-governing;
+}
+
+.jellyfish__topics-list__label--colorscheme-using:before {
+  background-color: $theme-using;
+}
+
+.jellyfish__topics-list__label--unselected:before {
+  background-color: #090629;
+}
+
+.jellyfish__list-item__input:checked,
+.jellyfish__list-item__input:not(checked) {
+  position: absolute;
+  left: -9999px;
+}
+
+.jellyfish__list-item::after {
+  background: #f4ebe0;
+}
+
+/* Left side */
+
+.jellyfish__topics-list {
+  padding-left: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.jellyfish__topics-list__label {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.jellyfish__topics-list > li::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 185px;
+  height: 300px;
+  width: 300px;
+
+  clip-path: polygon(0 0, 0 53px, 100px 121px);
+}
+
+.jellyfish__topics-list > li:nth-child(1)::after {
+  clip-path: polygon(0 0, 0 53px, 100px 121px);
+}
+
+.jellyfish__topics-list > li:nth-child(2)::after {
+  clip-path: polygon(0 0, 0 53px, 100px 53px);
+}
+
+.jellyfish__topics-list > li:nth-child(3)::after {
+  bottom: 0;
+  top: auto;
+  clip-path: polygon(0 300px, 0 247px, 100px 232px);
+}
+.jellyfish__topics-list > li:nth-child(4)::after {
+  bottom: 0;
+  top: auto;
+  clip-path: polygon(0 300px, 0 247px, 100px 164px);
+}
+
+.jellyfish__topics-list__list-item--unselected::after {
+  background-color: #f4ebe0 !important;
+}
+
+/* Arrow */
+.jellyfish__topics-list__item {
+  margin-right: 100px; /* hardcoded value to center AIMyths before styled components are ready */
+}
+
+/* Right side */
+.jellyfish__myths-list {
+  margin-right: 0;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 36px;
+  height: 529px; /* hardcoded value to center AIMyths before styled components are ready */
+}
+
+.jellyfish__myths-list__list-item {
+  width: auto;
+  padding: 0;
+}
+
+.jellyfish__list-item--colorscheme-representing::after {
+  background-color: $theme-representing;
+}
+
+.jellyfish__list-item--colorscheme-defining::after {
+  background-color: $theme-defining;
+}
+
+.jellyfish__list-item--colorscheme-governing::after {
+  background-color: $theme-governing;
+}
+
+.jellyfish__list-item--colorscheme-using::after {
+  background-color: $theme-using;
+}
+
+.jellyfish__myths-list__list-item--unselected::after {
+  background-color: #f4ebe0 !important;
+}
+
+.jellyfish__topics-list__list-item {
+  white-space: nowrap;
+}
+
+.jellyfish__topics-list__list-item.jellyfish__list-item--colorscheme-representing:hover,
+.jellyfish__topics-list__list-item.jellyfish__list-item--colorscheme-representing:not(.jellyfish__topics-list__list-item--unselected) {
+  background-color: $theme-representing-light;
+}
+
+.jellyfish__topics-list__list-item.jellyfish__list-item--colorscheme-defining:hover,
+.jellyfish__topics-list__list-item.jellyfish__list-item--colorscheme-defining:not(.jellyfish__topics-list__list-item--unselected) {
+  background-color: $theme-defining-light;
+}
+
+.jellyfish__topics-list__list-item.jellyfish__list-item--colorscheme-governing:hover,
+.jellyfish__topics-list__list-item.jellyfish__list-item--colorscheme-governing:not(.jellyfish__topics-list__list-item--unselected) {
+  background-color: $theme-governing-light;
+}
+
+.jellyfish__topics-list__list-item.jellyfish__list-item--colorscheme-using:hover,
+.jellyfish__topics-list__list-item.jellyfish__list-item--colorscheme-using:not(.jellyfish__topics-list__list-item--unselected) {
+  background-color: $theme-using-light;
+}
+
+.jellyfish__topics-list__list-item--unselected {
+  //background-color: #fff9ee !important;
+}
+
+.jellyfish__myths-list__list-item.jellyfish__list-item--colorscheme-representing:hover {
+  background-color: $theme-representing-light;
+}
+
+.jellyfish__myths-list__list-item.jellyfish__list-item--colorscheme-defining:hover {
+  background-color: $theme-defining-light;
+}
+
+.jellyfish__myths-list__list-item.jellyfish__list-item--colorscheme-governing:hover {
+  background-color: $theme-governing-light;
+}
+
+.jellyfish__myths-list__list-item.jellyfish__list-item--colorscheme-using:hover {
+  background-color: $theme-using-light;
+}
+
+/* Responsivity */
+
+@media all and (max-width: 1200px) {
+  .jellyfish__myths-list {
+    //font-weight: 500;
+    font-size: inherit;
+  }
+
+  .jellyfish__myths-list__list-item {
+  }
+
+  .jellyfish__topics-list__label {
+    padding-left: 24px;
+  }
+
+  .jellyfish__topics-list__label:before {
+    top: 21px;
+    width: 14px;
+    height: 14px;
+    border-width: 2px;
+  }
+
+  .jellyfish__list-item {
+    padding: 0 8px;
+  }
+
+  .jellyfish__list-item--passclass--afterparent::after {
+    transform: scale(75%, 100%);
+  }
+
+  .jellyfish__topic-list__litem {
+    margin-right: -25px;
+  }
+  .jellyfish__myths-list__litem {
+    margin-left: -25px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .jellyfish__list-item--passclass--afterparent::after {
+    transform: scale(50%, 100%);
+  }
+
+  .jellyfish__topic-list__litem {
+    margin-right: -45px;
+  }
+  .jellyfish__myths-list__litem {
+    margin-left: -45px;
+  }
+}
+
+@media all and (max-width: 770px) {
+  .jellyfish {
+    padding-top: 0px;
+  }
+
+  .jellyfish {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .jellyfish__title {
+    display: none;
+  }
+
+  .jellyfish__topics-list {
+    padding-right: 0;
+    margin-bottom: 70px;
+  }
+
+  .jellyfish__topics-list__list-item {
+    display: inline-flex;
+    margin: 5px;
+    height: 38px;
+    width: 100%;
+    padding: 5px 13px;
+    margin: 0 auto;
+  }
+
+  .jellyfish__topics-list__list-item::after {
+    display: none;
+  }
+
+  .jellyfish__list-item__page-link {
+    border-bottom: 3px solid black;
+    line-height: 21px;
+  }
+
+  .jellyfish__list-item__page-link-arrow {
+    display: block;
+  }
+
+  .jellyfish__topics-list__label {
+    padding-left: 19px;
+  }
+
+  .jellyfish__topics-list__label:before {
+    top: 9px;
+    width: 11px;
+    height: 11px;
+    border-width: 2px;
+  }
+
+  .jellyfish__myths-list {
+    font-size: 21px;
+    line-height: 25.6px;
+    margin-left: 0px;
+  }
+
+  .jellyfish__list-item__input {
+    top: 10px;
+    width: auto;
+  }
+
+  .jellyfish__topics-list__item {
+    margin: 0 !important;
+    display: inline-block;
+    width: auto !important;
+    height: auto !important;
+    margin-bottom: 8px !important;
+  }
+
+  .jellyfish__topic-list__litem {
+    display: inline-block;
+    margin: 0 4px;
+  }
+
+  .jellyfish__topic-list-ul {
+    width: 80%;
+    margin: 0 auto !important;
+    text-align: center;
+  }
+
+  /* arrow */
+  .jellyfish__topics-list__item:after {
+    display: none;
+  }
+
+  .jellyfish__list-item--passclass--afterparent::after {
+    transform: scale(100%, 100%);
+  }
+
+  .jellyfish__topic-list__litem {
+    margin-right: 0px;
+  }
+  .jellyfish__myths-list__litem {
+    margin-left: 0px;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .jellyfish__myths-list {
+    font-size: 21px;
+    line-height: 25.6px;
+    margin-left: -80px;
+  }
+}

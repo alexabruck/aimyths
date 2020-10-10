@@ -1,0 +1,54 @@
+.rich-link {
+  display: inline;
+}
+
+.rich-link__text {
+  transition: background-size 0.2s;
+  cursor: pointer;
+  background-size: calc(100% - 21px) 4px;
+}
+
+.rich-link__text--open {
+  box-shadow: none !important;
+  background-size: 100% 0px;
+}
+
+.rich-link__text--open:hover {
+  background-size: 0 !important;
+}
+
+.rich-link__explanatory-box {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  margin-bottom: 10px;
+  margin-top: -1px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 21.25px;
+  margin-right: 0;
+}
+
+.rich-link__explanatory-box__closeicon {
+  position: absolute;
+  top: 4px;
+  right: 5px;
+}
+
+.rich-link__explanatory-box__inner {
+  padding: 20px 51px 20px 19px;
+}
+
+.rich-link__explanatory-box--open {
+  max-height: 400px;
+}
+
+@media all and (min-width: 770px) {
+  .rich-link__explanatory-box {
+    margin-right: 35px;
+  }
+}

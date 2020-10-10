@@ -1,0 +1,1 @@
+With every genuine advance in the field of ‘artificial intelligence,’ we see a parallel increase in hype, myths, misconceptions and inaccuracies. These misunderstandings contribute to the opacity of AI systems, rendering them magical, inscrutable and inaccessible in the eyes of the public.

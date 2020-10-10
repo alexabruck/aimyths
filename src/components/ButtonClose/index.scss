@@ -1,0 +1,14 @@
+.button-close {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.button-close__inner {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url("../../css/icons/close.svg");
+  background-size: contain;
+}

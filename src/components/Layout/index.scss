@@ -1,0 +1,44 @@
+@import "../../css/colors.scss";
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
+  color: #090629;
+  font-family: "Zilla Slab", Palatino, serif;
+}
+
+.layout--dark {
+  background-color: $dark-violet;
+  color: white;
+}
+
+.layout__inner {
+  flex: 1;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1260px;
+  padding: 15px;
+}
+
+.layout__inner__main {
+  padding-top: 0px;
+}
+
+.layout__footer {
+  font-size: 18px;
+  line-height: 22px;
+  color: #555555;
+}
+
+@media all and (max-width: 770px) {
+  .layout__inner__main {
+    padding-top: 0;
+  }
+
+  .layout__footer {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

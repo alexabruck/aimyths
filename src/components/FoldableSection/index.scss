@@ -1,0 +1,27 @@
+.foldable-section {
+}
+
+.foldable-section__heading {
+  margin-left: -25px;
+  padding-left: 25px;
+  pointer-events: all !important;
+  margin-bottom: 0;
+}
+
+.foldable-section__heading__inner {
+  cursor: pointer;
+  user-select: none;
+  padding: 0 15px;
+}
+
+.foldable-section__heading--closed {
+}
+
+.foldable-section__content {
+  height: 0px;
+  overflow: hidden;
+}
+
+.foldable-section__content--open {
+  height: auto;
+}

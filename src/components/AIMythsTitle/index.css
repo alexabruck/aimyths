@@ -1,0 +1,30 @@
+.aimyths-title {
+  display: block;
+  font-family: "Zilla Slab", Palatino, serif;
+  font-size: 39.9px;
+  line-height: 37.6px;
+  font-weight: 300;
+  text-shadow: -0.2rem -0.2rem 1rem #fff, 0 0 1rem #6500ff, 0 0 2rem #ecddff;
+  transition: font-size 0.2s;
+
+  margin-top: 31px;
+}
+
+.aimyths-title--slim {
+  font-size: 0.1px;
+  height: 0px;
+}
+
+@media all and (min-width: 770px) {
+  .aimyths-title {
+    font-size: 48.6px;
+    line-height: 62px;
+    margin-top: 0;
+    margin-left: 9px;
+  }
+
+  .aimyths-title--slim {
+    font-size: 48.6px;
+    height: auto;
+  }
+}

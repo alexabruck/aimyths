@@ -1,0 +1,80 @@
+@import "../../css/colors.scss";
+
+.dosdonts {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.dosdonts__side {
+  margin: 0;
+  flex: 1;
+  flex-basis: 358px;
+}
+
+.dosdonts__side__wrapper--left {
+  overflow: hidden;
+  margin-left: -15px;
+  padding-left: 15px;
+}
+
+.dosdonts__side__wrapper--right {
+  overflow: hidden;
+  margin-right: -15px;
+  padding-right: 15px;
+}
+
+.dosdonts__side__list--left {
+  margin-left: -73px !important;
+}
+
+.dosdonts__side__list--right {
+  margin-right: -73px !important;
+}
+
+.dosdonts__item {
+  display: flex;
+  padding: 8px 17px;
+  align-items: center;
+}
+
+.dosdonts__dos-bg {
+  background-color: $theme-representing-light !important;
+}
+
+.dosdonts__dos-bg:after {
+  background-color: $theme-representing !important;
+}
+
+.dosdonts__donts-bg {
+  background-color: #f1f1f1 !important;
+}
+
+.dosdonts__donts-bg:after {
+  background-color: #e1e1e1 !important;
+}
+
+@media all and (min-width: 770px) {
+  .dosdonts {
+  }
+
+  .dosdonts__side {
+    margin: 0 15px;
+  }
+
+  .dosdonts__side__wrapper--left,
+  .dosdonts__side__wrapper--right {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .dosdonts__side__list--left {
+    margin-left: 0 !important;
+  }
+
+  .dosdonts__side__list--right {
+    margin-right: 0 !important;
+  }
+}

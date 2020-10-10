@@ -1,0 +1,226 @@
+@import "../../css/colors.scss";
+
+/* Extra styling for taking screenshots of the widget */
+/*
+.widget-agency {
+  height: 300px !important;
+  min-height: auto !important;
+  margin: 600px 10px !important;
+}
+
+.widget-agency__left__bottom,
+.widget-agency__right__bottom {
+  display: none !important;
+}
+
+.widget-agency__left__number {
+  font-size: 22px;
+}
+
+.layout-article__mobile-toc {
+  display: none;
+}
+
+header {
+  display: none;
+}
+*/
+/* End of Extra Styling */
+
+.widget-agency {
+  width: auto;
+  position: relative;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.widget-agency__item {
+  display: flex;
+  flex-direction: column;
+  //grid-template-columns: minmax(200px, 40%) 1fr;
+  position: relative;
+  z-index: 1;
+}
+
+.widget-agency__item--hidden {
+  display: none;
+}
+
+.widget-agency__left,
+.widget-agency__right {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 5px #beb9c5;
+}
+
+.widget-agency__left {
+  position: relative;
+  padding: 15px;
+  border-radius: 7px 7px 0px 0px;
+  min-height: 230px;
+}
+
+.widget-agency__right {
+  padding: 15px 15px;
+  border-radius: 0px 0px 7px 7px;
+  min-height: 200px;
+}
+
+.widget-agency__left__number,
+.widget-agency__left__bottom,
+.widget-agency__right__number,
+.widget-agency__right__bottom {
+  position: absolute;
+  font-size: 14px;
+  user-select: none;
+}
+
+.widget-agency__left__number,
+.widget-agency__right__number {
+  position: relative;
+}
+
+.widget-agency__left__bottom {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.widget-agency__left__statement,
+.widget-agency__right__statement {
+  flex-grow: 1;
+  margin-top: 25px;
+}
+
+.widget-agency__right__statement {
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+.widget-agency__left__statement {
+  font-size: 30px;
+  line-height: 1.2;
+
+  margin-top: 0;
+  color: #59308e;
+}
+
+.widget-agency__left__statement,
+.widget-agency__right__statement {
+  display: flex;
+  align-items: center;
+}
+
+.widget-agency__left {
+  background-color: $theme-representing;
+
+  line-height: auto;
+}
+
+.widget-agency__right {
+  background-color: $theme-representing-light;
+  position: relative;
+}
+
+.widget-agency__right__cta {
+  background-color: $theme-representing-light;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 7px 7px 0px;
+}
+
+.widget-agency__right__button {
+  position: relative;
+  display: block;
+  color: white;
+  border: none;
+  font-size: 20px;
+  line-height: 1.2;
+  padding: 12px;
+  height: auto;
+  background-color: #322a5e;
+  box-shadow: 2px 2px 6px gray;
+  transition: box-shadow 0.2s;
+}
+
+.widget-agency__right__button:hover {
+  box-shadow: 1px 1px 2px gray;
+}
+
+.widget-agency__right__bottom {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  opacity: 1;
+  margin-left: auto;
+  display: block;
+  text-align: right;
+  transition: all 0.75s;
+  transition-delay: 0.25s;
+  transform: translate(0, 0);
+}
+
+.widget-agency__right__bottom--hide {
+  opacity: 0;
+  transform: translate(10px, 0);
+}
+
+@media all and (min-width: 770px) {
+  .widget-agency {
+    min-height: 400px;
+    height: 375px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .widget-agency__item {
+    height: 100%;
+    flex-direction: row;
+  }
+
+  .widget-agency__left,
+  .widget-agency__right {
+    flex: 1;
+  }
+
+  .widget-agency__left {
+    border-radius: 7px 0px 0px 7px;
+  }
+
+  .widget-agency__right {
+    padding: 15px 15px;
+    border-radius: 0px 7px 7px 0px;
+  }
+
+  .widget-agency__left__statement,
+  .widget-agency__right__statement {
+    margin-top: 40px;
+  }
+
+  .widget-agency__right__statement {
+    padding: 0px;
+    display: block;
+  }
+
+  .widget-agency__left__statement {
+    display: block;
+    padding: 0 15px;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .widget-agency__left__statement {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+  .widget-agency__right__statement {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+}

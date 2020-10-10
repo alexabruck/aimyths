@@ -1,0 +1,49 @@
+@import "../../css/colors.scss";
+
+.news-item__title {
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 26px;
+  margin: 3px 0 6px;
+}
+
+.news-item__date {
+  display: block;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: -3px;
+}
+
+.news-item__text,
+.news-item__text > p {
+  max-width: 75ch;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.news-item__text > p {
+  margin: 0;
+}
+
+.news-item a {
+  border-bottom: 4px solid $strong-violet;
+}
+
+.news-item__text--shortened p:not(:first-child) {
+  display: none;
+}
+
+@media all and (min-width: 770px) {
+  .news-item__title {
+    font-size: 21px;
+    line-height: 26px;
+    margin: 5px 0;
+  }
+
+  .news-item__text,
+  .news-item__text > p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

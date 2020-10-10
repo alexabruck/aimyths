@@ -1,0 +1,555 @@
+@import "../../css/colors.scss";
+
+.layout-article {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout-article__header-buffer {
+  padding-top: 180px; /* This is the height of our sticky/fixed header */
+}
+
+.layout-article__header-buffer--slim {
+  padding-top: 93px; /* This is the height of our sticky/fixed header in slim state */
+}
+
+.layout-article__fullwidth-abstract {
+  font-size: 21px;
+  line-height: 32.4px;
+  font-weight: 200;
+}
+
+.layout-article__title {
+  display: none;
+}
+
+.layout-article__dropdown {
+  width: 100%;
+  max-width: 824px;
+  font-size: 19px;
+  font-family: "Niramit", sans-serif;
+  margin-top: 0px;
+}
+
+.layout-article__inner {
+  flex: 1;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1260px;
+  padding: 15px;
+}
+
+.layout-article__header {
+  background-color: #19163e;
+  color: white;
+}
+
+.layout-article__content {
+  background-color: white;
+  color: black;
+  margin: 0 -15px;
+  padding: 19px;
+}
+
+.layout-article__content__mainpart {
+  position: relative;
+  padding-right: 0px;
+}
+
+.layout-article__content__mainpart {
+  *::selection {
+    background-color: #d2d2d2;
+  }
+}
+
+.layout-article__content__sidebar {
+}
+
+.layout-article__toc {
+  display: none;
+}
+
+.layout-article__toc__addendum-toc {
+  height: 0px;
+  margin: 0 !important;
+  overflow: hidden;
+  font-size: 17px;
+  line-height: 22px;
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.layout-article__mobile-toc {
+  //position: fixed;
+  //bottom: 0px;
+  //z-index: 1;
+  width: 100%;
+}
+
+/* Shift headlines to make anchor links work with sticky header */
+/* CSS-Trick from: https://css-tricks.com/hash-tag-links-padding/ */
+
+.layout-article h2,
+.layout-article h3 {
+  pointer-events: none;
+}
+.layout-article h2::before,
+.layout-article h3::before {
+  display: block;
+  content: " ";
+  margin-top: -130px;
+  height: 130px;
+  visibility: hidden;
+  pointer-events: none;
+  background: none;
+}
+
+.layout-article img {
+}
+
+.layout-article .gatsby-resp-image-wrapper {
+  box-shadow: #d1d1d1 1px 1px 12px;
+  width: 100% !important;
+  height: auto;
+  margin-left: 0 !important;
+  padding: 5px;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+
+/* Link styling */
+.layout-article a,
+.theme-underline {
+  background-image: linear-gradient(180deg, black, black);
+  background-size: 100% 4px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s;
+}
+
+.layout-article a:hover,
+.theme-underline:hover {
+  background-size: 100% 11px;
+}
+
+.layout-article__fullwidth-abstract__inner {
+  padding: 35px 0;
+}
+
+/****************************************** DESKTOP ****************************************************/
+
+@media all and (min-width: 770px) {
+  .layout-article {
+    padding-top: 0px;
+  }
+
+  .layout-article .gatsby-resp-image-wrapper {
+    width: 80% !important;
+    height: auto;
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+  }
+
+  .layout-article__header-buffer {
+    padding-top: 85px; /* This is the height of our sticky/fixed header */
+  }
+
+  .layout-article__header-buffer--slim {
+    padding-top: 85px; /* This is the height of our sticky/fixed header in slim state */
+  }
+
+  .layout-article__fullwidth-abstract {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 200;
+  }
+
+  .layout-article__title {
+    display: block;
+    font-size: 58px;
+    font-weight: 200;
+    line-height: 70px;
+    margin-bottom: 29.8px;
+    color: #0e082f;
+  }
+
+  .layout-article__fullwidth-abstract__inner {
+    width: 65%;
+    padding-top: 31px;
+    padding-bottom: 52px;
+  }
+
+  .layout-article__mobile-toc {
+    display: none;
+  }
+  .layout-article__dropdown {
+    margin-top: 0;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 35px;
+    max-width: 800px;
+    margin-left: auto;
+  }
+
+  .layout-article__content {
+    display: flex;
+    width: 100%;
+  }
+
+  .layout-article__content__mainpart {
+    width: 80%;
+    padding-right: 50px;
+  }
+
+  .layout-article__content__sidebar {
+  }
+
+  .layout-article__toc {
+    opacity: 1;
+    display: block;
+    position: fixed;
+    top: 140px;
+    transition: opacity 0.2s, translate 0.2s;
+    translate: 0 0;
+  }
+
+  .layout-article__toc--hidden {
+    opacity: 0;
+    translate: 0 30px;
+  }
+}
+
+@media all and (min-width: 1260px) {
+  .layout-article__content__mainpart {
+    padding-right: 80px;
+  }
+}
+
+/* Theming */
+
+/* links */
+
+.layout-article--theme-defining {
+  a,
+  .theme-underline {
+    background-image: linear-gradient(180deg, $theme-defining, $theme-defining);
+  }
+}
+
+.layout-article--theme-representing {
+  a,
+  .theme-underline {
+    background-image: linear-gradient(
+      180deg,
+      $theme-representing,
+      $theme-representing
+    );
+  }
+}
+
+.layout-article--theme-governing {
+  a,
+  .theme-underline {
+    background-image: linear-gradient(
+      180deg,
+      $theme-governing,
+      $theme-governing
+    );
+  }
+}
+
+.layout-article--theme-using {
+  a,
+  .theme-underline {
+    background-image: linear-gradient(180deg, $theme-using, $theme-using);
+  }
+}
+
+/* internal links */
+
+.layout-article article a[href^="/"] {
+  background-size: 100% 100%;
+  position: relative;
+  padding: 3px 10px;
+  font-weight: 500;
+  margin: 0 5px;
+}
+
+.layout-article article a[href^="/"]:after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  right: 5px;
+  bottom: 4px;
+  border: 2px solid white;
+  opacity: 0.2;
+  transition: background 0.2s;
+}
+
+.layout-article article a[href^="/"]:hover:after {
+  opacity: 0.3;
+  background-color: white;
+  mix-blend-mode: overlay;
+}
+
+.layout-article--theme-defining article a[href^="/"] {
+  background-size: 100% 100%;
+  background-image: linear-gradient(180deg, $theme-defining, $theme-defining);
+}
+
+.layout-article--theme-representing article a[href^="/"] {
+  background-size: 100% 100%;
+  background-image: linear-gradient(
+    90deg,
+    $theme-representing,
+    $theme-representing
+  );
+}
+
+.layout-article--theme-governing article a[href^="/"] {
+  background-size: 100% 100%;
+  background-image: linear-gradient(180deg, $theme-governing, $theme-governing);
+}
+
+.layout-article--theme-using article a[href^="/"] {
+  padding: 2px 5px;
+  background-size: 100% 100%;
+  background-image: linear-gradient(180deg, $theme-using, $theme-using);
+}
+
+/* backgrounds */
+
+.layout-article--theme-defining {
+  .theme-background {
+    background-color: $theme-defining-light;
+  }
+}
+
+.layout-article--theme-representing {
+  .theme-background {
+    background-color: $theme-representing-light;
+  }
+}
+
+.layout-article--theme-governing {
+  .theme-background {
+    background-color: $theme-governing-light;
+  }
+}
+
+.layout-article--theme-using {
+  .theme-background {
+    background-color: $theme-using-light;
+  }
+}
+
+/* backgrounds (gradient light) */
+
+.layout-article--theme-defining {
+  .theme-background-gradient-light {
+    background-image: radial-gradient(white, $theme-defining-light);
+  }
+}
+
+.layout-article--theme-representing {
+  .theme-background-gradient-light {
+    background-image: radial-gradient(white, $theme-representing-light);
+  }
+}
+
+.layout-article--theme-governing {
+  .theme-background-gradient-light {
+    background-image: radial-gradient(white, $theme-governing-light);
+  }
+}
+
+.layout-article--theme-using {
+  .theme-background-gradient-light {
+    background-image: radial-gradient(white, $theme-using-light);
+  }
+}
+
+/* backgrounds (gradient) */
+
+.layout-article--theme-defining {
+  .theme-background-gradient {
+    background-image: radial-gradient(white, $theme-defining);
+  }
+}
+
+.layout-article--theme-representing {
+  .theme-background-gradient {
+    background-image: radial-gradient(white, $theme-representing);
+  }
+}
+
+.layout-article--theme-governing {
+  .theme-background-gradient {
+    background-image: radial-gradient(white, $theme-governing);
+  }
+}
+
+.layout-article--theme-using {
+  .theme-background-gradient {
+    background-image: radial-gradient(white, $theme-using-light);
+  }
+}
+
+/* backgrounds (gradient) */
+
+.layout-article--theme-defining {
+  .theme-background-box-gradient {
+    background-image: linear-gradient(
+        $theme-defining 2px,
+        rgba(255, 255, 255, 0) 15px
+      ),
+      linear-gradient(
+        to right,
+        $theme-defining 2px,
+        rgba(255, 255, 255, 0) 15px
+      ),
+      linear-gradient(to left, $theme-defining 2px, rgba(255, 255, 255, 0) 15px),
+      linear-gradient(to top, $theme-defining 2px, rgba(255, 255, 255, 0) 15px);
+    background-color: $theme-defining-light !important;
+  }
+}
+
+.layout-article--theme-representing {
+  .theme-background-box-gradient {
+    background-image: linear-gradient(
+        $theme-representing 2px,
+        rgba(255, 255, 255, 0) 15px
+      ),
+      linear-gradient(
+        to right,
+        $theme-representing 2px,
+        rgba(255, 255, 255, 0) 15px
+      ),
+      linear-gradient(
+        to left,
+        $theme-representing 2px,
+        rgba(255, 255, 255, 0) 15px
+      ),
+      linear-gradient(
+        to top,
+        $theme-representing 2px,
+        rgba(255, 255, 255, 0) 15px
+      );
+    background-color: $theme-representing-light !important;
+  }
+}
+
+.layout-article--theme-governing {
+  .theme-background-box-gradient {
+    background-image: linear-gradient(
+        $theme-governing 2px,
+        rgba(255, 255, 255, 0) 15px
+      ),
+      linear-gradient(
+        to right,
+        $theme-governing 2px,
+        rgba(255, 255, 255, 0) 15px
+      ),
+      linear-gradient(
+        to left,
+        $theme-governing 2px,
+        rgba(255, 255, 255, 0) 15px
+      ),
+      linear-gradient(to top, $theme-governing 2px, rgba(255, 255, 255, 0) 15px);
+    background-color: $theme-governing-light !important;
+  }
+}
+
+.layout-article--theme-using {
+  .theme-background-box-gradient {
+    background-image: linear-gradient(
+        $theme-using 2px,
+        rgba(255, 255, 255, 0) 15px
+      ),
+      linear-gradient(to right, $theme-using 2px, rgba(255, 255, 255, 0) 15px),
+      linear-gradient(to left, $theme-using 2px, rgba(255, 255, 255, 0) 15px),
+      linear-gradient(to top, $theme-using 2px, rgba(255, 255, 255, 0) 15px);
+    background-color: $theme-using-light !important;
+  }
+}
+
+/* svg fills */
+
+.layout-article--theme-defining {
+  .theme-fill-light {
+    fill: $theme-defining-light;
+  }
+}
+
+.layout-article--theme-representing {
+  .theme-fill-light {
+    fill: $theme-representing-light;
+  }
+}
+
+.layout-article--theme-governing {
+  .theme-fill-light {
+    fill: $theme-governing-light;
+  }
+}
+
+.layout-article--theme-using {
+  .theme-fill-light {
+    fill: $theme-using-light;
+  }
+}
+
+/* svg fills */
+
+.layout-article--theme-defining {
+  .theme-fill {
+    fill: $theme-defining;
+  }
+}
+
+.layout-article--theme-representing {
+  .theme-fill {
+    fill: $theme-representing;
+  }
+}
+
+.layout-article--theme-governing {
+  .theme-fill {
+    fill: $theme-governing;
+  }
+}
+
+.layout-article--theme-using {
+  .theme-fill {
+    fill: $theme-using;
+  }
+}
+
+/* borders */
+
+.layout-article--theme-defining {
+  .theme-border {
+    border-color: $theme-defining-light;
+  }
+}
+
+.layout-article--theme-representing {
+  .theme-border {
+    border-color: $theme-representing-light;
+  }
+}
+
+.layout-article--theme-governing {
+  .theme-border {
+    border-color: $theme-governing-light;
+  }
+}
+
+.layout-article--theme-using {
+  .theme-border {
+    border-color: $theme-using-light;
+  }
+}

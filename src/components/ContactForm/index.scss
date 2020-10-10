@@ -1,0 +1,42 @@
+.contact-form {
+  background-color: transparent;
+  padding: 15px;
+
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.contact-form__formfield {
+  width: 100%;
+  margin: 5px 0 !important;
+  border-color: white;
+}
+
+.contact-form__formfield label,
+.contact-form__formfield span {
+  font-family: Zilla Slab;
+  color: white;
+}
+
+.contact-form__formfield fieldset {
+  border-color: white;
+}
+
+.contact-form .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: white;
+}
+
+.contact-form .MuiFormLabel.root.Mui-focused {
+  color: white !important;
+}
+
+.contact-form .MuiInputBase-input {
+  color: white;
+}
+
+@media all and (min-width: 770px) {
+  .contact-form__formfield {
+    margin: 15px 0 !important;
+  }
+}

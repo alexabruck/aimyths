@@ -1,0 +1,8 @@
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="icons/page-up" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="bevel">
+        <g id="Group-3" transform="translate(10.500000, 9.500000) scale(-1, 1) translate(-10.500000, -9.500000) translate(3.000000, 3.000000)" stroke="#979797" stroke-width="2">
+            <polyline id="Path-3" points="14.5 13 4.5 13 4.5 -3.77475828e-15"></polyline>
+            <polyline id="Path" points="9 6 4.5 0 0 6"></polyline>
+        </g>
+    </g>
+</svg>

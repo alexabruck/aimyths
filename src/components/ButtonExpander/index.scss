@@ -1,0 +1,29 @@
+.button-expander {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.25s;
+}
+
+.button-expander:focus,
+.button-expander:active {
+  outline: none;
+}
+
+.button-expander--closed {
+}
+
+.button-expander__inner {
+  display: block;
+  width: 14px;
+  height: 10px;
+  border-radius: 2px;
+  background-size: contain;
+  position: relative;
+}
+
+.button-exander--big__svg {
+  height: 20px;
+  width: auto;
+}

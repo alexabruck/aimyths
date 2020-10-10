@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "sentence": "_AI_ is likely to impact the future of almost every industry and all our lives.",
+      "source": "European Parliament Scientific Foresight Unit (STOA)",
+      "sourceLink": "https://epthinktank.eu/2020/07/03/artificial-intelligence-is-revolutionising-our-future-opportunities-and-challenges/",
+      "replacements": [
+        {
+          "word": "Complex information processing",
+          "sentence": "_AI_ is likely to impact the future of almost every industry and all our lives."
+        },
+        {
+          "word": "Opaque proprietary software",
+          "sentence": "_AI_ is likely to impact the future of almost every industry and all our lives."
+        },
+        {
+          "word": "Fancy computer programs",
+          "sentence": "_AI_ are likely to impact the future of almost every industry and all our lives."
+        },
+        {
+          "word": "Computational statistics",
+          "sentence": "_AI_ is likely to impact the future of almost every industry and all our lives."
+        },
+        {
+          "word": "Machine learning",
+          "sentence": "_AI_ is likely to impact the future of almost every industry and all our lives."
+        }
+      ]
+    },
+    {
+      "sentence": "The Pentagon's research arm has pumped $1 million into a contract to build an _AI_ tool meant to decode and predict the emotions of allies and enemies. It even wants the _AI_ app to advise generals on major military decisions",
+      "source": "Forbes",
+      "sourceLink": "https://www.forbes.com/sites/thomasbrewster/2020/07/15/the-pentagons-1-million-question-can-ai-predict-an-enemys-emotions/?utm_source=TWITTER&utm_medium=social&utm_content=3496993252&utm_campaign=sprinklrForbesTechTwitter#7542d3f32b4e",
+      "replacements": [
+        {
+          "word": "fancy computer program",
+          "sentence": "The Pentagon's research arm has pumped $1 million into a contract to build a _AI_ meant to decode and predict the emotions of allies and enemies. It even wants the _AI_ to advise generals on major military decisions"
+        },
+        {
+          "word": "machine learning tool",
+          "sentence": "The Pentagon's research arm has pumped $1 million into a contract to build a _AI_ meant to decode and predict the emotions of allies and enemies. It even wants the _AI_ to advise generals on major military decisions"
+        },
+        {
+          "word": "magical data-driven prediction machine",
+          "sentence": "The Pentagon's research arm has pumped $1 million into a contract to build a _AI_ meant to decode and predict the emotions of allies and enemies. It even wants the _AI_ to advise generals on major military decisions"
+        },
+        {
+          "word": "scientifically dubious app",
+          "sentence": "The Pentagon's research arm has pumped $1 million into a contract to build a _AI_ meant to decode and predict the emotions of allies and enemies. It even wants the _AI_ to advise generals on major military decisions"
+        },
+        {
+          "word": "overhyped proprietary app",
+          "sentence": "The Pentagon's research arm has pumped $1 million into a contract to build an _AI_ meant to decode and predict the emotions of allies and enemies. It even wants the _AI_ to advise generals on major military decisions"
+        }
+      ]
+    },
+    {
+      "sentence": "Because humans are susceptible to bias from their own personal baggage, _AI_ can make a more objective decision on someone’s feelings. And so it can help people make better decisions on how to communicate: _AI_ will actually make us more human",
+      "source": "Matt Celuszak, CEO of Element Human, in Forbes",
+      "sourceLink": "https://www.forbes.com/sites/thomasbrewster/2020/07/15/the-pentagons-1-million-question-can-ai-predict-an-enemys-emotions/?utm_source=TWITTER&utm_medium=social&utm_content=3496993252&utm_campaign=sprinklrForbesTechTwitter#7542d3f32b4e",
+      "replacements": [
+        {
+          "word": "this exclusive subscription app",
+          "sentence": "Because humans are susceptible to bias from their own personal baggage, _AI_ can make a more objective decision on someone’s feelings. And so it can help people make better decisions on how to communicate: _AI_ will actually make us more human"
+        },
+        {
+          "word": "this tool made by humans",
+          "sentence": "Because humans are susceptible to bias from their own personal baggage, _AI_ can make a more objective decision on someone’s feelings. And so it can help people make better decisions on how to communicate: _AI_ will actually make us more human"
+        },
+        {
+          "word": "this opaque proprietary app",
+          "sentence": "Because humans are susceptible to bias from their own personal baggage, _AI_ can make a more objective decision on someone’s feelings. And so it can help people make better decisions on how to communicate: _AI_ will actually make us more human"
+        },
+        {
+          "word": "computational statistics",
+          "sentence": "Because humans are susceptible to bias from their own personal baggage, _AI_ can make a more objective decision on someone’s feelings. And so it can help people make better decisions on how to communicate: _AI_ will actually make us more human"
+        },
+        {
+          "word": "fancy computer programs",
+          "sentence": "Because humans are susceptible to bias from their own personal baggage, _AI_ can make a more objective decision on someone’s feelings. And so they can help people make better decisions on how to communicate: _AI_ will actually make us more human"
+        }
+      ]
+    },
+    {
+      "sentence": "I’m increasingly inclined to think that there should be some regulatory oversight, maybe at the national and international level, just to make sure that we don’t do something very foolish. I mean with _AI_ we’re summoning the demon.",
+      "source": "Elon Musk",
+      "sourceLink": "https://www.theguardian.com/technology/2014/oct/27/elon-musk-artificial-intelligence-ai-biggest-existential-threat",
+      "replacements": [
+        {
+          "word": "complex information processing systems",
+          "sentence": "I’m increasingly inclined to think that there should be some regulatory oversight, maybe at the national and international level, just to make sure that we don’t do something very foolish. I mean with _AI_ we’re summoning the demon."
+        },
+        {
+          "word": "computational statistics",
+          "sentence": "I’m increasingly inclined to think that there should be some regulatory oversight, maybe at the national and international level, just to make sure that we don’t do something very foolish. I mean with _AI_ we’re summoning the demon."
+        },
+        {
+          "word": "data analysis",
+          "sentence": "I’m increasingly inclined to think that there should be some regulatory oversight, maybe at the national and international level, just to make sure that we don’t do something very foolish. I mean with _AI_ we’re summoning the demon."
+        },
+        {
+          "word": "fancy computer programs",
+          "sentence": "I’m increasingly inclined to think that there should be some regulatory oversight, maybe at the national and international level, just to make sure that we don’t do something very foolish. I mean with _AI_ we’re summoning the demon."
+        },
+        {
+          "word": "machine learning",
+          "sentence": "I’m increasingly inclined to think that there should be some regulatory oversight, maybe at the national and international level, just to make sure that we don’t do something very foolish. I mean with _AI_ we’re summoning the demon."
+        }
+      ]
+    },
+    {
+      "sentence": "I'm more frightened than interested by _AI_ - in fact, perhaps fright and interest are not far away from one another. Things can become real in your mind, you can be tricked, and you believe things you wouldn't ordinarily",
+      "source": "Gemma Whelan, cited in '28 best quotes about AI' in Forbes",
+      "sourceLink": "https://www.forbes.com/sites/bernardmarr/2017/07/25/28-best-quotes-about-artificial-intelligence/",
+      "replacements": [
+        {
+          "word": "machine learning",
+          "sentence": "I'm more frightened than interested by _AI_ - in fact, perhaps fright and interest are not far away from one another. Things can become real in your mind, you can be tricked, and you believe things you wouldn't ordinarily"
+        },
+        {
+          "word": "computers",
+          "sentence": "I'm more frightened than interested by _AI_ - in fact, perhaps fright and interest are not far away from one another. Things can become real in your mind, you can be tricked, and you believe things you wouldn't ordinarily"
+        },
+        {
+          "word": "fancy computer programs",
+          "sentence": "I'm more frightened than interested by _AI_ - in fact, perhaps fright and interest are not far away from one another. Things can become real in your mind, you can be tricked, and you believe things you wouldn't ordinarily"
+        },
+        {
+          "word": "computational statistics",
+          "sentence": "I'm more frightened than interested by _AI_ - in fact, perhaps fright and interest are not far away from one another. Things can become real in your mind, you can be tricked, and you believe things you wouldn't ordinarily"
+        },
+        {
+          "word": "complex information processing",
+          "sentence": "I'm more frightened than interested by _AI_ - in fact, perhaps fright and interest are not far away from one another. Things can become real in your mind, you can be tricked, and you believe things you wouldn't ordinarily"
+        }
+      ]
+    }
+  ]
+}

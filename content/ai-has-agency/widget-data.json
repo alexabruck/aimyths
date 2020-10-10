@@ -1,0 +1,71 @@
+{
+  "data": [
+    {
+      "original": "Would AI be better at governing than politicians?",
+      "rephrased": "Would unelected people who hide behind a smokescreen of technology be better at governing than people who were democratically elected?",
+      "source": "World Economic Forum",
+      "sourceLink": "https://www.weforum.org/agenda/2019/03/a-surprising-number-of-people-trust-ai-to-make-better-policy-decisions-than-politicians"
+    },
+    {
+      "original": "This Robot Can Guess How You're Feeling by the Way You Walk",
+      "rephrased": "By analysing your gait, this robot can make worthless inferences about your emotions based on simplistic, flawed theories, dubious data (actors doing 'angry walks') and bad data labelling practices",
+      "source": "WIRED",
+      "sourceLink": "https://www.wired.com/story/proxemo-robot-guesses-emotion-from-walking/"
+    },
+    {
+      "original": "Facebook AI Creates Its Own Language In Creepy Preview Of Our Potential Future",
+      "rephrased": "Facebook chatbot experiment turned off because it was set up badly and descended into absolute gibberish",
+      "source": "Forbes",
+      "sourceLink": "https://www.forbes.com/sites/tonybradley/2017/07/31/facebook-ai-creates-its-own-language-in-creepy-preview-of-our-potential-future/"
+    },
+    {
+      "original": "Artificial Intelligence Can Now Write Amazing Content - What Does That Mean For Humans?",
+      "rephrased": "People can use computer programs to make barely passable imitations of generic written content provided they have enormous numbers of examples, but they are liable to say horrible racist and sexist things - what does that mean for humans?",
+      "source": "Forbes",
+      "sourceLink": "https://www.forbes.com/sites/bernardmarr/2019/03/29/artificial-intelligence-can-now-write-amazing-content-what-does-that-mean-for-humans/"
+    },
+    {
+      "original": "People are using artificial intelligence to help sort out their divorce. Would you?",
+      "rephrased": "Because the Australian legal system is overburdened and legal costs are so high, people are being urged to use a cheap-fix, simplistic chatbot solution to provide legal advice in the complex situation of divorce. Would you?",
+      "source": "phys.org",
+      "sourceLink": "https://phys.org/news/2020-07-people-artificial-intelligence-divorce.html"
+    },
+    {
+      "original": "Self-taught artificial intelligence beats doctors at predicting heart attacks",
+      "rephrased": "Algorithm designed by humans shows improvement of +7.6% in detecting cardiovascular disease compared to the established algorithm also developed by humans.",
+      "source": "sciencemag.org",
+      "sourceLink": "https://www.sciencemag.org/news/2017/04/self-taught-artificial-intelligence-beats-doctors-predicting-heart-attacks?utm_content=bufferb3054&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer"
+    },
+    {
+      "original": "Artificial intelligence news: Brain-based AI discovers ‘remarkable’ antibiotic",
+      "rephrased": "Pharmaceutical news: scientists make use of a machine learning system to help in discovering a new antibiotic",
+      "source": "express.co.uk",
+      "sourceLink": "https://www.express.co.uk/news/science/1246170/artificial-intelligence-news-ai-discover-halcyon-remarkable-antibiotic"
+    },
+    {
+      "original": "This AI learned to predict the future by watching loads of TV",
+      "rephrased": "After being trained on 600 hours of footage from TV shows, this computer vision system could predict what happened next in a scene from a similar TV show 43% of the time",
+      "source": "WIRED",
+      "sourceLink": "https://www.wired.co.uk/article/algorithm-watch-tv-predict-future"
+    },
+    {
+      "original": "Artificial intelligence can now read human emotions. Should it?",
+      "rephrased": "Artificial intelligence cannot read human emotions, but companies are making computer vision software that can make unscientific, simplistic inferences about people's emotions. Should they?",
+      "source": "The Conversation",
+      "sourceLink": "https://theconversation.com/ai-can-now-read-emotions-should-it-128988"
+    },
+    {
+      "original": "AI Jesus writes bible-inspired verse",
+      "rephrased": "As expected, machine learning system trained on King James bible reproduces similar, although flawed, text",
+      "source": "TechXplore",
+      "sourceLink": "https://techxplore.com/news/2020-09-ai-jesus-bible-inspired-verse.html"
+    },
+    {
+      "original": "Artificial Intelligence Will Obliterate These Jobs By 2030",
+      "rephrased": "Profit-driven companies aim to automate these jobs by 2030 so that they can increase profit margins and push workers into more precarious forms of employment",
+      "source": "Fortune",
+      "sourceLink": "https://fortune.com/2019/11/19/artificial-intelligence-will-obliterate-these-jobs-by-2030/"
+    }
+
+  ]
+}

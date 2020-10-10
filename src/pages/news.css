@@ -1,0 +1,22 @@
+.news {
+}
+
+.news__title {
+  font-size: 26px;
+  line-height: 34px;
+  margin-bottom: 22px;
+}
+
+.news__item {
+  margin-bottom: 29px;
+}
+
+@media all and (min-width: 770px) {
+  .news__title {
+    margin-bottom: 73px;
+  }
+
+  .news__item {
+    margin-bottom: 55px;
+  }
+}
