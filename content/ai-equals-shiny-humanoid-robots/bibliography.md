@@ -23,6 +23,8 @@ Lisa Meinecke & Laura Voss - [I Robot, You Unemployed: Robotics in Science Ficti
 
 [Dr Beth Singler](https://bvlsingler.com/) has produced excellent work on this topic and other related ideas. See, for example, here article: [The AI Creation Meme: A Case Study of the New Visibility of Religion in Artificial Intelligence Discourse](https://www.mdpi.com/2077-1444/11/5/253)
 
+On the problem of Whiteness in AI, see Cave, S., and Dihal, K. (2020), [*The Whiteness of AI*](https://doi.org/10.1007/s13347-020-00415-6.)
+
 On the related issue of representing 'Big Data', see this article from Christian Pentzold, Cornelia Brantner and Lena Fölsche: [Imagining big data: Illustrations of “big data” in US news articles, 2010–2016](https://journals.sagepub.com/doi/10.1177/1461444818791326)
 
 On Afrofuturism, check out this piece on [How Afrofuturism Can Help the World Mend](https://www.wired.com/story/how-afrofuturism-can-help-the-world-mend/), this TED talk from Nnedi Okorafor on [Sci-fi stories that imagine a future Africa](https://www.ted.com/talks/nnedi_okorafor_sci_fi_stories_that_imagine_a_future_africa#t-278537), or this video on why [Afrofuturism is not just Black sci-fi](https://www.inverse.com/article/42024-afrofuturism-is-not-just-black-sci-fi)
