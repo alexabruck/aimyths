@@ -12,7 +12,7 @@ position: 1
 For more video resources and a list of books, check out [this list from the UCLA Center for Critical Internet Inquiry](https://docs.google.com/document/d/1moEbUugiG9u2x2HRlBXN0PGk4h5Sb-1993elBj4oHac/edit)
 
 ###Interactive games/tools:
-[Survival of the best fit](https://github.com/survivalofthebestfit/survivalofthebestfit)
+[Survival of the Best Fit](https://www.survivalofthebestfit.com/)
 
 [MIT Tech Review game on AI bias](https://www.technologyreview.com/2019/10/17/75285/ai-fairer-than-judge-criminal-risk-assessment-algorithm/)
 
